@@ -23,9 +23,9 @@ const drawLabel = (context, settings) => {
 };
 
 const drawImage = (context, settings, qr, callback) => {
-    fs.readFile(__dirname + settings.image, function (err, imageBuf) {
+    fs.readFile(settings.image, function (err, imageBuf) {
         if (err) {
-            console.error('Error reading image file: ' + __dirname + settings.image);
+            console.error('Error reading image file: ' + settings.image);
         } else {
             let image = new Image;
             image.src = imageBuf;

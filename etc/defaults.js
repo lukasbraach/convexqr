@@ -45,8 +45,8 @@ module.exports = {
     fontname: 'sans',
     fontcolor: '#333',
 
-    // image source path FROM THIS FILE
-    image: '/../img/convex.png',
+    // ABSOLUTE image source path
+    image: __dirname + '/../img/convex.png',
 
     // image cutout in blocks - only odd values; -1 -> automatic sizing (only with mode=image); 0 -> no cutout (use when mode=plain)
     imageCutout: 0
