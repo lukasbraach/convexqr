@@ -10,6 +10,10 @@ PNG-streams instead of creating DOM-elements.
 Furthermore, some algorithms concerning qrcode-generation
 have been optimized and should now run faster.
 
+Install the npm-package:
+
+    npm install convexqr
+
 Using **convexqr** is quite straight forward:
 
     const convexqr = require('convexqr');
