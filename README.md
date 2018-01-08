@@ -1,30 +1,30 @@
-## convexqr
+# convexqr
 
 **Welcome to this README file!**
 
-This project is a port of Lars Jung's great Kjua.
-While Kjua only runs on browsers, convexqr is optimized for the
+This project is a port of Lars Jung's great **Kjua**.
+While **Kjua** only runs on browsers, **convexqr** is optimized for the
 Node.js developers' needs. Its main difference is that it provides 
 PNG-streams instead of creating DOM-elements.
 
 Furthermore, some algorithms concerning qrcode-generation
 have been optimized and should now run faster.
 
-Using `convexqr` is actually quite straight forward:
+Using **convexqr** is actually quite straight forward:
 
     const convexqr = require('convexqr');
     convexqr({text: 'Hello world!'}, function(readablePngStream) {
         // readablePngStream.pipe(writableStream);
     });
 
-The api is mostly as in `Kjua`. All available parameters are
+The api is mostly as in Kjua. All available parameters are
 listed and explained in the `etc/defaults.js` file. 
+<br>
+Happy coding! :)
 
-And now: Happy coding! :)
 
-
-
-*(Only boring legal stuff down here)*
+<br>
+*(Only boring legal stuff down here)*<br>
 **Copyright 2018 Lukas Braach**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
