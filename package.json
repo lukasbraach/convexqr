@@ -3,7 +3,12 @@
   "description": "generate QR-codes with Node.js",
   "main": "index.js",
   "keywords": [
-    "qr", "code", "generator", "fancy", "image", "png"
+    "qr",
+    "code",
+    "generator",
+    "fancy",
+    "image",
+    "png"
   ],
   "repository": {
     "type": "git",
@@ -18,10 +23,13 @@
     "url": "https://github.com/lukasbraach"
   },
   "contributors": [
-    {"name": "Lars Jung", "url": "https://larsjung.de"}
+    {
+      "name": "Lars Jung",
+      "url": "https://larsjung.de"
+    }
   ],
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "canvas-prebuilt": "^1.6.5-prerelease.1"
   }
