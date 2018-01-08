@@ -10,7 +10,7 @@ PNG-streams instead of creating DOM-elements.
 Furthermore, some algorithms concerning qrcode-generation
 have been optimized and should now run faster.
 
-Using **convexqr** is actually quite straight forward:
+Using **convexqr** is quite straight forward:
 
     const convexqr = require('convexqr');
     convexqr({text: 'Hello world!'}, function(readablePngStream) {
