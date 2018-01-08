@@ -29,7 +29,7 @@
     }
   ],
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "canvas-prebuilt": "^1.6.5-prerelease.1"
   }
