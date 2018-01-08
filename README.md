@@ -3,7 +3,7 @@
 **Welcome to this README file!**
 
 This project is a port of Lars Jung's great **Kjua**.
-While **Kjua** only runs on browsers, **convexqr** is optimized for the
+While Kjua only runs on browsers, **convexqr** is optimized for the
 Node.js developers' needs. Its main difference is that it provides 
 PNG-streams instead of creating DOM-elements.
 
