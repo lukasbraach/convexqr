@@ -1,0 +1,28 @@
+{
+  "name": "convexqr",
+  "description": "generate QR-codes with Node.js",
+  "main": "index.js",
+  "keywords": [
+    "qr", "code", "generator", "fancy", "image", "png"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukasbraach/convexqr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukasbraach/convexqr/issues"
+  },
+  "homepage": "https://github.com/lukasbraach/convexqr",
+  "author": {
+    "name": "Lukas Braach",
+    "url": "https://github.com/lukasbraach"
+  },
+  "contributors": [
+    {"name": "Lars Jung", "url": "https://larsjung.de"}
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "dependencies": {
+    "canvas-prebuilt": "^1.6.5-prerelease.1"
+  }
+}
