@@ -36,7 +36,7 @@ module.exports = {
     mode: 'plain',
 
     // label/image size and pos in pc: 0..100
-    mSize: 100,
+    mSize: 10,
     mPosX: 50,
     mPosY: 50,
 
@@ -45,9 +45,9 @@ module.exports = {
     fontname: 'sans',
     fontcolor: '#333',
 
-    // image source path
+    // image source path FROM THIS FILE
     image: '/../img/convex.png',
 
-    // image cutout in blocks - only odd values; -1 -> automatic sizing; 0 -> no cutout
-    imageCutout: -1
+    // image cutout in blocks - only odd values; -1 -> automatic sizing (only with mode=image); 0 -> no cutout (use when mode=plain)
+    imageCutout: 0
 };

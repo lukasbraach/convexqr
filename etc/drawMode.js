@@ -62,6 +62,8 @@ const drawMode = (context, settings, qr, callback) => {
         callback();
     } else if (mode === 'image') {
         drawImage(context, settings, qr, callback);
+    } else {
+        callback();
     }
 };
 
